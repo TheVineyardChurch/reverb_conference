@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>Reverb Conference</title>
+    <meta name="author" content="The Vineyard Church of Central Illinois">
+    <meta name="description" content="Vineyard Youth Conference">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="node_modules/tachyons/css/tachyons.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div id="header"></div>
+
+      <p class="tc fl w-100 pa2 white">
+      <span class="bold">Date:</span> Feb 24-26 |
+      <span class="bold">Cost:</span> $135 (before Feb 5th) |
+      <span class="bold">Where:</span> Carlinville, IL
+      </p>
+
+      <div class="tc">
+        <button class="register-btn"><a class="register" href="https://thevineyardchurch.ccbchurch.com/login.php" target="_blank">Register</a></button>
+      </div>
+
+      <h1 class="white tc">Keynote Speaker</h1>
+      <div>
+        <div class="pics fl w-30 pa2">
+          <img class="" src="assets/Jenna.Stepp.jpg">
+        </div>
+        <div class="white fl w-70 pa2 lh-title">
+          <h3 class="white bold">Jenna Stepp</h3>
+          Jenna currently serves on the Vineyard USA’s national youth task force and is passionate
+          about seeing young people empowered with the supernatural reality of the
+          Christian life! Jenna serves as the Director of Development for Vineyard's
+          Heroic Leadership Institute.
+        </div>
+      </div>
+      <div class="cf"></div>
+      <h1 class="tc white">Worship Leader</h1>
+      <div>
+        <div class="white tr fl w-70 pa2 lh-title">
+          <h3 class="white bold">Kyle Howard</h3>
+        Kyle is a loved son of God and a talented song writer and
+        worship leader. He has been leading worship at the Vineyard since
+        he was 14 years old and now serves as the Worship Director at the
+        Mahomet Vineyard. In addition to worshipping Jesus, Kyle loves
+        playing basketball, eating spicy chicken sandwiches from Chick-fil-A,
+        and spending time with friends and family
+        </div>
+        <div class="jenna fl w-30 pa2">
+          <img class="pics" src="assets/Kyle.Howard.jpg">
+        </div>
+      </div>
+      <div class="cf"></div>
+
+      <br /><br />
+      <p class="white tc">For more information, contact Leah Wenger at <a class="white" href="mailto:leah.wenger@thevineyardchurch.us">leah.wenger@thevineyardchurch.us</a></p>
+
+
+      <div id="footer"></div>
+
+      <script>
+        $(document).ready(function(){
+          $('#header').load('header.html');
+          $('#footer').load('footer.html');
+        });
+      </script>
+
+    </div>
+
+  </body>
+</html>

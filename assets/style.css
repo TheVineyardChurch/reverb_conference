@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Raleway" !important;
+  src: url("Raleway-Regular.ttf") !important;
+}
+
+body {
+  background: url('reverb_background.png') center center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: "Raleway";
+}
+
+nav {
+  font-weight: bold;
+}
+
+.no-list-type {
+  list-style: none;
+  margin: 1em;
+  padding: 0;
+  line-height: 1.3em;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  /*border: 1px dotted white;*/
+}
+
+.pics {
+  width: 150px;
+}
+
+
+.register {
+  text-decoration: none;
+  color: #000;
+}
+
+.register-btn {
+  text-align: center;
+  font-size: 30px;
+}
+
+.vineyard_logo {
+  width: 20%;
+  margin: auto;
+}
