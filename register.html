@@ -7,14 +7,19 @@
     <meta name="author" content="The Vineyard Church of Central Illinois">
     <meta name="description" content="Vineyard Youth Conference">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="node_modules/tachyons/css/tachyons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
     <link rel="stylesheet" href="assets/style.css">
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
   </head>
   <body>
 
     <div class="container">
-      <div id="header"></div>
+      <img src="assets/reverb_logo.png">
+      <nav class="bt bb b--white tc mw7 center mt4">
+        <a class="f6 f5-l link bg-animate white-80 dim dib pa3 ph4-l" href="index.html">About</a>
+        <a class="f6 f5-l link bg-animate white-80 dim dib pa3 ph4-l" href="schedule.html">Schedule</a>
+        <a class="f6 f5-l link bg-animate white-80 dim dib pa3 ph4-l" href="packinglist.html">What To Bring</a>
+        <a class="f6 f5-l link bg-animate white-80 dim dib pa3 ph4-l" href="register.html">Register</a>
+      </nav>
 
       <h1 class="white tc">Registration Information</h1>
       <div class="white pa2">
@@ -45,20 +50,20 @@
       <br />
 
       <div class="tc">
-        <button class="register-btn"><a class="register" href="https://thevineyardchurch.ccbchurch.com/login.php" target="_blank">Register</a></button>
+        <button class="register-btn f3 tc"><a class="no-underline black" href="https://thevineyardchurch.ccbchurch.com/login.php" target="_blank">Register</a></button>
       </div>
 
-      <div id="footer"></div>
+      <br />
+      <footer class="bt b--white">
+        <br />
+        <div class="vineyard_logo">
+          <a class="footer" href="http://thevineyardchurch.us" target="_blank"><img src="assets/vineyard_logo.png"></a>
+        </div>
+      </footer>
+      <br />
 
 
     </div>
 
-    <script>
-      $(document).ready(function(){
-        $('#header').load('header.html');
-        $('#footer').load('footer.html');
-      });
-
-    </script>
   </body>
 </html>
