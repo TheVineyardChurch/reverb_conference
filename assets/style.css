@@ -1,9 +1,11 @@
 @font-face {
-  font-family: "Raleway" !important;
-  src: url("Raleway-Regular.ttf") !important;
+  font-family: "Raleway";
+  src: url("Raleway-Regular.ttf") format('truetype');
+  src: url("Raleway-Regular.woff") format('woff'); 
 }
 
 body {
+  background-color: #1E3146;
   background: url('reverb_background.png') center center fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -13,10 +15,6 @@ body {
   font-family: "Raleway";
 }
 
-nav {
-  font-weight: bold;
-}
-
 .no-list-type {
   list-style: none;
   margin: 1em;
@@ -24,29 +22,13 @@ nav {
   line-height: 1.3em;
 }
 
-.bold {
-  font-weight: bold;
-}
-
 .container {
   max-width: 750px;
   margin: auto;
-  /*border: 1px dotted white;*/
 }
 
 .pics {
   width: 150px;
-}
-
-
-.register {
-  text-decoration: none;
-  color: #000;
-}
-
-.register-btn {
-  text-align: center;
-  font-size: 30px;
 }
 
 .vineyard_logo {
