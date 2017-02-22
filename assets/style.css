@@ -22,13 +22,25 @@ body {
   line-height: 1.3em;
 }
 
-.container {
-  max-width: 750px;
+.auto {
   margin: auto;
 }
 
 .pics {
   width: 150px;
+}
+
+iframe {
+  /*width="640" height="360"*/
+  width: 640px;
+  height: 360px;
+}
+
+@media (max-width: 670px) {
+  iframe {
+    width: 90%;
+    height: 56.25vw;
+  }
 }
 
 .vineyard_logo {
