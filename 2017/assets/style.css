@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("Raleway-Regular.ttf") format('truetype');
+  src: url("Raleway-Regular.woff") format('woff');
+}
+
+body {
+  background-color: #1E3146;
+  background: url('reverb_background.png') center center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: "Raleway";
+}
+
+.no-list-type {
+  list-style: none;
+  margin: 1em;
+  padding: 0;
+  line-height: 1.3em;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+}
+
+.pics {
+  width: 150px;
+}
+
+.vineyard_logo {
+  width: 20%;
+  margin: auto;
+}
