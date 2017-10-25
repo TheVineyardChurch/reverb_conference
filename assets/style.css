@@ -26,8 +26,13 @@ body {
   margin: auto;
 }
 
-.pics {
+/*.pics {
   width: 150px;
+}*/
+
+.container {
+  max-width: 750px;
+  margin: auto;
 }
 
 iframe {
