@@ -25,11 +25,124 @@ h2 {
 }
 
 .cover {
-  background: url('reverb-11.jpg') center center; 
+  /*background: url('reverb-11.jpg') center center;
+  background-repeat: no-repeat;*/
+  background: url('reverb_background.png') center center fixed;
+  background-size: cover;
   width: 100%;
-  height: 1000px;
+  height: 700px;
+  /*margin-top: 50px;*/
+  /*position: relative;*/
+  /*z-index: 1;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
+.cover h1 {
+  color: white;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.cover a {
+  padding: 15px;
+  color: white;
+  background-color: grey;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header {
+  display: flex;
+  height: 64px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background-color: #304F6F;
+}
+
+header h1 {
+  font-size: 2rem;
+  align-self: center;
+  text-transform: uppercase;
+}
+
+header img {
+  padding-left: 24px;
+}
+
+header a {
+  font-size: 1rem;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: right;
+  margin-left: 30px;
+}
+
+nav span {
+  padding-right: 16px;
+}
+
+nav span:last-child {
+  padding-right: 24px;
+}
+
+nav span a {
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.4rem;
+  font-size: 1.2rem;
+}
+
+#logo {
+  width: 100px;
+  height: auto;
+}
+
+.about {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  /*justify-content: center;*/
+  flex-direction: column;
+}
+
+.about h2 {
+  margin: 25px 0px;
+  text-align: center;
+}
+
+.about p {
+  width: 75%;
+  margin: auto;
+}
+
+.about p.times {
+  text-align: center;
+}
+
+/* */
+
+.guests {
+  max-width: 1200px;
+  margin: auto;
+  background-color: blue;
+}
+
+.guests h1 {
+  text-align: center;
+  margin: 25px 0px;
+}
 
 /*.no-list-type {
   list-style: none;
