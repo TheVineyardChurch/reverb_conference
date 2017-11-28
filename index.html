@@ -28,20 +28,17 @@
     <!-- safari pinned tab -->
     <!-- <link rel="mask-icon" href="assets/rvb_pinned.svg" color="#1C2C40"> -->
     <!-- CSS -->
-    <!-- Bootstrap CSS -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
-          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="assets/reset.css">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/grid.css">
   </head>
   <body>
 
     <header>
       <img id="logo" src="./assets/reverb_logo.png">
-      <!-- <h1>Reverb</h1> -->
       <nav>
-        <span><a href="#mission">About</a></span>
-        <span><a href="#featured-tea">Featured Guests</a></span>
+        <span><a href="#about">About</a></span>
+        <span><a href="#guests">Featured Guests</a></span>
         <span><a href="#featured-tea">Schedule</a></span>
         <span><a href="#locations">Packing List</a></span>
         <span><a href="#locations">Register</a></span>
@@ -49,13 +46,14 @@
     </header>
 
     <div class="cover">
+      <h1>Reverb 2017</h1>
       <h1>Experience the Power and Presence of God</h1>
       <a href="#">Register</a>
     </div>
 
     <div class="container">
 
-      <div class="about">
+      <div id="about" class="about">
         <h2>What is Reverb?</h2>
         <p class="">
           Reverb is the annual Regional Vineyard Conference for students 6th-12th grade.
@@ -65,7 +63,7 @@
           groups of all sizes to join us for this fun, action-packed weekend!
         </p>
 
-        <h2>When is Reverb?</h2>
+        <h2 class="pt-25">When is Reverb?</h2>
         <p class="times">
           <span class="b">Date:</span> Feb 23-25 |
           <span class="b">Cost:</span> $140 (before Feb 5th) |
@@ -73,13 +71,145 @@
         </p>
       </div>
 
-      <div class="guests">
-        <h1>Featured Guests</h1>
+      <div id="guests" class="guests-container">
+        <div class="guests">
+          <h1>Keynote Speaker</h1>
 
+          <div class="grid">
+            <div class="grid__col grid__col--1-of-2">
+              <h2 class="">Jeremiah Carlson</h2>
+              <p>
+                Jeremiah with his wife Kara have 3 amazing kids (Emberlin, Lovelin and Valor) and are passionate
+                about seeing people become authentic disciples of Jesus. He was the youth/young adult pastor at
+                the Vancouver Vineyard Church in Vancouver, WA for 10 years as well as the Vineyard Movements
+                NW Youth Task Force Director for 6 years. He is also the lead singer and song writer for the
+                internationally renown worship band "The Neverclaim". He is a champion and preacher for revival
+                over the next generation and has a passion to call out peoples true identity and dreams in Christ.
+              </p>
+            </div>
+            <div class="grid__col grid__col--1-of-2">
+              <img class="" src="assets/jeremiah.jpg">
+            </div>
 
+          </div>
 
+          <h1>Worship Leader</h1>
+
+          <div class="grid">
+            <div class="grid__col grid__col--1-of-2">
+              <img class="pics" src="assets/kyle.jpg">
+            </div>
+            <div class="grid__col grid__col--1-of-2">
+              <h2 class="right">Kyle Howard</h2>
+              <p>
+                Kyle's deepest passions are to see people encounter the loving presence
+              of the Father and for people to walk in the fullness of who they were
+              made to be as sons and daughters of the living God. Kyle began leading
+              worship over 10 years ago in his youth ministry at the age of 14. He is
+              featured on worship albums for the National Vineyard and VWorship.
+              Kyle now serves on staff at The Vineyard Church of Central Illinois
+              as Worship Pastor. When he isn't leading worship, Kyle loves to play
+              basketball, golf, and hangout with friends.
+              </p>
+            </div>
+          </div>
+
+        </div>
 
       </div>
+
+
+      <div id="packing" class="packing-container">
+        <div class="packing">
+          <h1>Packing List</h1>
+
+          <div class="grid">
+            <div class="grid__col grid__col--1-of-2">
+              <h2 class="">What To Bring</h2>
+              <ul class="no-list-type">
+                <li>Clothes (don't forget PJs)</li>
+                <li>Coat/gloves/hat</li>
+                <li>Sleeping Bag/Pillow (beds don't have sheets)</li>
+                <li>Swimsuit (one piece/tankinis only)</li>
+                <li>Gym Clothes</li>
+                <li>Shower stuff</li>
+                <li>Towel</li>
+                <li>Any necessary medications</li>
+                <li>Extra money (cafe, book table, etc.)</li>
+                <li>Cell phone/iPods/etc (you're responsible for them)</li>
+              </ul>
+
+            </div>
+            <div class="grid__col grid__col--1-of-2">
+              <h2 class="">What <span class="underline">Not</span> To Bring</h2>
+              <ul class="no-list-type">
+                <li>Fireworks</li>
+                <li>Cigarettes</li>
+                <li>Alcohol</li>
+                <li>Drugs</li>
+                <li>Or any other bad things</li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+      <!-- <div id="about" class="about">
+        <h2>What To Bring</h2>
+        <ul class="white no-list-type">
+          <li>Clothes (don't forget PJs)</li>
+          <li>Coat/gloves/hat</li>
+          <li>Sleeping Bag/Pillow (beds don't have sheets)</li>
+          <li>Swimsuit (one piece/tankinis only)</li>
+          <li>Gym Clothes</li>
+          <li>Shower stuff</li>
+          <li>Towel</li>
+          <li>Any necessary medications</li>
+          <li>Extra money (cafe, book table, etc.)</li>
+          <li>Cell phone/iPods/etc (you're responsible for them)</li>
+        </ul>
+
+        <h2 class="pt-25">When is Reverb?</h2>
+        <p class="times">
+          <span class="b">Date:</span> Feb 23-25 |
+          <span class="b">Cost:</span> $140 (before Feb 5th) |
+          <span class="b">Where:</span> <a href="http://www.lakewilliamson.org" target="_blank" class="white">Lake Williamson Retreat Center</a>
+        </p>
+      </div> -->
+
+
+
+
+      <!--
+      <div class="tc">
+      <h1 class="white">What To Bring</h1>
+      <ul class="white no-list-type">
+        <li>Clothes (don't forget PJs)</li>
+        <li>Coat/gloves/hat</li>
+        <li>Sleeping Bag/Pillow (beds don't have sheets)</li>
+        <li>Swimsuit (one piece/tankinis only)</li>
+        <li>Gym Clothes</li>
+        <li>Shower stuff</li>
+        <li>Towel</li>
+        <li>Any necessary medications</li>
+        <li>Extra money (cafe, book table, etc.)</li>
+        <li>Cell phone/iPods/etc (you're responsible for them)</li>
+      </ul>
+
+      <h1 class="white">What Not To Bring</h1>
+      <ul class="white no-list-type">
+        <li>Fireworks</li>
+        <li>Cigarettes</li>
+        <li>Alcohol</li>
+        <li>Drugs</li>
+        <li>Or any other bad things</li>
+      </ul>
+      </div>
+    -->
 
 
       <!--

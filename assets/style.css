@@ -30,7 +30,8 @@ h2 {
   background: url('reverb_background.png') center center fixed;
   background-size: cover;
   width: 100%;
-  height: 700px;
+  /*height: 1000px;*/
+  height: 100vh;
   /*margin-top: 50px;*/
   /*position: relative;*/
   /*z-index: 1;*/
@@ -42,11 +43,13 @@ h2 {
 
 .cover h1 {
   color: white;
+  font-size: 2.5rem;
   margin-bottom: 25px;
   font-weight: bold;
 }
 
 .cover a {
+  font-size: 1.5rem;
   padding: 15px;
   color: white;
   background-color: grey;
@@ -113,12 +116,13 @@ p {
   display: flex;
   max-width: 1200px;
   margin: auto;
+  padding: 50px 0px;
   /*justify-content: center;*/
   flex-direction: column;
 }
 
 .about h2 {
-  margin: 25px 0px;
+  margin-bottom: 25px;
   text-align: center;
 }
 
@@ -133,23 +137,93 @@ p {
 
 /* */
 
+.guests-container {
+  width: 100%;
+  background-color: #2B4662;
+  padding-bottom: 50px;
+  /*display: flex;*/
+}
+
 .guests {
   max-width: 1200px;
+  text-align: center;
   margin: auto;
-  background-color: blue;
+  /*display: flex;*/
 }
 
 .guests h1 {
   text-align: center;
-  margin: 25px 0px;
+  padding-top: 50px;
+  color: white;
 }
 
-/*.no-list-type {
+.guests h2 {
+  color: white;
+  margin-bottom: 25px;
+}
+
+.guests p {
+  color: white;
+}
+
+.guests img {
+  width: 400px;
+  height: auto;
+}
+
+.guests .grid {
+  margin-top: 75px;
+}
+
+
+.pt-25 {
+  padding-top: 25px;
+}
+
+.packing-container {
+  width: 100%;
+  padding-bottom: 50px;
+  /*display: flex;*/
+}
+
+.packing {
+  max-width: 1200px;
+  text-align: center;
+  margin: auto;
+  /*display: flex;*/
+}
+
+.packing h1 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.packing h2 {
+  margin-bottom: 25px;
+}
+
+.packing .grid {
+  margin-top: 50px;
+}
+
+.packing li {
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+
+.packing .underline {
+  text-decoration: underline;
+}
+
+
+
+
+.no-list-type {
   list-style: none;
   margin: 1em;
   padding: 0;
   line-height: 1.3em;
-}*/
+}
 
 /*.auto {
   margin: auto;
