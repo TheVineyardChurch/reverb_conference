@@ -241,6 +241,11 @@ p {
   line-height: 1.4rem;
 }
 
+.schedule p {
+  color: white;
+  font-size: 1rem;
+}
+
 .schedule .grid {
   margin-top: 50px;
 }
@@ -248,6 +253,35 @@ p {
 .schedule span.time {
   font-weight: bold;
   color: #fefefe;
+}
+
+
+.register {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px 0px;
+  /*justify-content: center;*/
+  flex-direction: column;
+}
+
+.register h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.register p {
+  width: 75%;
+  margin: auto;
+}
+
+.register a {
+  font-size: 1.5rem;
+  padding: 15px;
+  color: white;
+  background-color: grey;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 
@@ -277,12 +311,41 @@ p {
   height: 360px;
 }*/
 
-/*@media (max-width: 670px) {
-  iframe {
-    width: 90%;
-    height: 56.25vw;
-  }
+
+/*#mobile {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: right;
 }*/
+
+#mobile {
+  /*display: flex;
+  justify-content: space-around;
+  align-items: center;*/
+  
+}
+
+
+#mobile div {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+}
+
+@media (max-width: 670px) {
+  #desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 670px) {
+  #mobile {
+    display: none;
+  }
+}
 
 /*.vineyard_logo {
   width: 20%;
