@@ -5,10 +5,6 @@
 }
 
 body {
-  /*background-color: #1E3146;
-  background: url('reverb_background.png') center center fixed;
-  background-size: cover;
-  background-repeat: no-repeat;*/
   width: 100%;
   height: 100%;
   margin: 0;
@@ -35,6 +31,7 @@ h2 {
   flex-direction: column;
 }
 
+
 .cover h1 {
   color: white;
   font-size: 2.5rem;
@@ -50,6 +47,7 @@ h2 {
   text-decoration: none;
   font-weight: bold;
 }
+
 
 header {
   display: flex;
@@ -107,13 +105,17 @@ p {
 }
 
 
+.container {
+  width: 100%;
+  background-color: #1E3145;
+  color: white;
+}
 
 .about {
   display: flex;
   max-width: 1200px;
   margin: auto;
-  padding: 50px 0px;
-  /*justify-content: center;*/
+  padding: 70px 0px;
   flex-direction: column;
 }
 
@@ -131,25 +133,27 @@ p {
   text-align: center;
 }
 
-/* */
+.about a {
+  color: #5890C4;
+}
+
+
 
 .guests-container {
   width: 100%;
   background-color: #2B4662;
-  padding-bottom: 50px;
-  /*display: flex;*/
+  padding-bottom: 70px;
 }
 
 .guests {
   max-width: 1200px;
   text-align: center;
   margin: auto;
-  /*display: flex;*/
 }
 
 .guests h1 {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 70px;
   color: white;
 }
 
@@ -176,22 +180,20 @@ p {
   padding-top: 25px;
 }
 
-.packing-container {
-  width: 100%;
+
+#packing {
   padding-bottom: 50px;
-  /*display: flex;*/
 }
 
 .packing {
   max-width: 1200px;
   text-align: center;
   margin: auto;
-  /*display: flex;*/
 }
 
 .packing h1 {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 70px;
 }
 
 .packing h2 {
@@ -215,20 +217,18 @@ p {
 .schedule-container {
   width: 100%;
   background-color: #2B4662;
-  padding-bottom: 50px;
-  /*display: flex;*/
+  padding-bottom: 70px;
 }
 
 .schedule {
   max-width: 1200px;
   text-align: center;
   margin: auto;
-  /*display: flex;*/
 }
 
 .schedule h1 {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 70px;
   color: white;
 }
 
@@ -257,13 +257,16 @@ p {
   color: #fefefe;
 }
 
+.register-container {
+  width: 100%;
+  background-color: #506B7A;
+}
 
 .register {
   display: flex;
   max-width: 1200px;
   margin: auto;
-  padding: 50px 0px;
-  /*justify-content: center;*/
+  padding: 70px 0px;
   flex-direction: column;
 }
 
@@ -287,7 +290,6 @@ p {
 }
 
 
-
 .no-list-type {
   list-style: none;
   margin: 1em;
@@ -295,47 +297,7 @@ p {
   line-height: 1.3em;
 }
 
-/*.auto {
-  margin: auto;
-}*/
 
-/*.pics {
-  width: 150px;
-}*/
-
-/*.container {
-  max-width: 750px;
-  margin: auto;
-}*/
-
-/*iframe {
-  width: 640px;
-  height: 360px;
-}*/
-
-
-/*#mobile {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  text-align: right;
-}*/
-
-#mobile {
-  /*display: flex;
-  justify-content: space-around;
-  align-items: center;*/
-
-}
-
-
-/*#mobile div {
-  width: 35px;
-  height: 5px;
-  background-color: white;
-  margin: 6px 0;
-}*/
 
 @media (max-width: 670px) {
   header img {
@@ -358,11 +320,14 @@ p {
     padding-right: 0;
   }
 
+  .cover h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .cover a {
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+
 }
-
-
-
-/*.vineyard_logo {
-  width: 20%;
-  margin: auto;
-}*/
