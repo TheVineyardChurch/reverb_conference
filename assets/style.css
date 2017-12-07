@@ -106,6 +106,8 @@ p {
   height: auto;
 }
 
+
+
 .about {
   display: flex;
   max-width: 1200px;
@@ -324,28 +326,41 @@ p {
   /*display: flex;
   justify-content: space-around;
   align-items: center;*/
-  
+
 }
 
 
-#mobile div {
+/*#mobile div {
   width: 35px;
   height: 5px;
   background-color: white;
   margin: 6px 0;
-}
+}*/
 
 @media (max-width: 670px) {
-  #desktop {
+  header img {
     display: none;
   }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: .5rem;
+    margin-right: .5rem;
+  }
+
+  nav span a {
+    font-size: .7rem;
+  }
+
+  nav span:last-child {
+    padding-right: 0;
+  }
+
 }
 
-@media (min-width: 670px) {
-  #mobile {
-    display: none;
-  }
-}
+
 
 /*.vineyard_logo {
   width: 20%;
