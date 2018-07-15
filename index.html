@@ -1,13 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <title>Reverb Conference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="The Vineyard Church of Central Illinois">
     <meta name="description" content="Vineyard Midwest Youth Conference">
     <meta name="keywords" content="Vineyard Youth Conference, Youth Conference, Vineyard Midwest, Midwest Youth">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <!-- favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-icon-60x60.png">
@@ -25,41 +25,70 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/assets/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <!-- safari pinned tab -->
-    <!-- <link rel="mask-icon" href="assets/rvb_pinned.svg" color="#1C2C40"> -->
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/reset.css">
-    <link rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="assets/grid.css">
-  </head>
-  <body>
 
-    <header>
-      <img id="logo" src="./assets/reverb_logo.png">
-      <nav id="desktop">
-        <span><a href="#about" class="active">About</a></span>
-        <span><a href="#guests">Featured Guests</a></span>
-        <span><a href="#packing">Packing List</a></span>
-        <span><a href="#schedule">Schedule</a></span>
-        <span><a href="#register">Register</a></span>
+    <link rel="mask-icon" href="assets/rvb_pinned.svg" color="#1C2C40">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+
+    <title>Reverb</title>
+  </head>
+  <body style="overflow: hidden;">
+
+    <!-- <div class="nav"> -->
+      <nav class="nav navbar fixed-top navbar-expand-lg navbar-dark" ><!-- style="background-color: black;"> -->
+        <!-- <div class="container"> -->
+          <a class="navbar-brand" href="index.html"><img src="reverb_logo.png"/></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"> <!-- active" -->
+                <a class="nav-link" href="about.html">About</a> <!-- span class="sr-only">(current)</span></a -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="speakers.html">Speakers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="schedule.html">Schedule</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Store</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Register</a>
+              </li>
+            </ul>
+          </div>
+        <!-- </div> -->
       </nav>
+    <!-- </div> -->
+
+    <header class="v-header v-container">
+
+      <div class="fullscreen-video-wrap">
+        <video src="street.mov" autoplay="true" loop="true" muted="true">
+        </video>
+      </div>
+
+      <div class="header-content rellax">
+        <h1 class="pb-3 display-4 text-uppercase">Reverb Conference</h1>
+        <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Register</a>
+
+        <!-- <div class="arrow">
+          <i class="down"></i>
+        </div> -->
+      </div>
+
+
 
     </header>
 
-    <div class="cover">
-      <!-- <div class="cover-flex"> -->
-      <img src="assets/reverb_logo.png" />
-        <!-- <h1>Reverb 2017</h1>
-        <h1>Experience the Power and Presence of God</h1> -->
-        <a href="https://www.eiseverywhere.com/ereg/index.php?eventid=294111&" target="_blank">Register</a>
-      <!-- </div> -->
-    </div>
-
-    <!-- <div class="container"> -->
-
-      <div id="about" class="container">
-        <div class="about">
-          <h2>What is Reverb?</h2>
+    <!-- <div id="about" class="container-md">
+          <h2 class="text-center mt-5">What is Reverb?</h2>
           <p class="">
             Reverb is the annual Regional Vineyard Conference for students 6th-12th grade.
             The purpose of this conference is to gather Vineyard Youth Ministries from all
@@ -68,227 +97,74 @@
             groups of all sizes to join us for this fun, action-packed weekend!
           </p>
 
-          <h2 class="pt-25">When is Reverb?</h2>
-          <p class="times">
-            <span class="b">Date:</span> Feb 23-25 |
-            <span class="b">Cost:</span> $140 (before Feb 5th) |
-            <span class="b">Where:</span> <a href="http://www.lakewilliamson.org" target="_blank" class="white">Lake Williamson Retreat Center</a>
-          </p>
-        </div>
-      </div>
-
-      <div id="guests" class="guests-container">
-        <div class="guests">
-          <h1>Keynote Speaker</h1>
-
-          <div class="grid">
-            <div class="grid__col grid__col--1-of-2">
-              <h2 class="">Jeremiah Carlson</h2>
-              <p>
-                Jeremiah with his wife Kara have 3 amazing kids (Emberlin, Lovelin and Valor) and are passionate
-                about seeing people become authentic disciples of Jesus. He was the youth/young adult pastor at
-                the Vancouver Vineyard Church in Vancouver, WA for 10 years as well as the Vineyard Movements
-                NW Youth Task Force Director for 6 years. He is also the lead singer and song writer for the
-                internationally renown worship band "The Neverclaim". He is a champion and preacher for revival
-                over the next generation and has a passion to call out peoples true identity and dreams in Christ.
-              </p>
-            </div>
-            <div class="grid__col grid__col--1-of-2">
-              <img class="" src="assets/jeremiah.jpg">
-            </div>
-
-          </div>
-
-          <h1>Worship Leader</h1>
-
-          <div class="grid">
-            <div class="grid__col grid__col--1-of-2">
-              <img class="pics" src="assets/kyle.jpg">
-            </div>
-            <div class="grid__col grid__col--1-of-2">
-              <h2 class="right">Kyle Howard</h2>
-              <p>
-                Kyle's deepest passions are to see people encounter the loving presence
-              of the Father and for people to walk in the fullness of who they were
-              made to be as sons and daughters of the living God. Kyle began leading
-              worship over 10 years ago in his youth ministry at the age of 14. He is
-              featured on worship albums for the National Vineyard and VWorship.
-              Kyle now serves on staff at The Vineyard Church of Central Illinois
-              as Worship Pastor. When he isn't leading worship, Kyle loves to play
-              basketball, golf, and hangout with friends.
-              </p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-
-      <div id="packing" class="container">
-        <div class="packing">
-          <h1>Packing List</h1>
-
-          <div class="grid">
-            <div class="grid__col grid__col--1-of-2">
-              <h2 class="">What To Bring</h2>
-              <ul class="no-list-type">
-                <li>Clothes (don't forget PJs)</li>
-                <li>Coat/gloves/hat</li>
-                <li>Sleeping Bag/Pillow (beds don't have sheets)</li>
-                <li>Swimsuit (one piece/tankinis only)</li>
-                <li>Gym Clothes</li>
-                <li>Shower stuff</li>
-                <li>Towel</li>
-                <li>Any necessary medications</li>
-                <li>Extra money (cafe, book table, etc.)</li>
-                <li>Cell phone/iPods/etc (you're responsible for them)</li>
-              </ul>
-
-            </div>
-            <div class="grid__col grid__col--1-of-2">
-              <h2 class="">What <span class="underline">Not</span> To Bring</h2>
-              <ul class="no-list-type">
-                <li>Fireworks</li>
-                <li>Cigarettes</li>
-                <li>Alcohol</li>
-                <li>Drugs</li>
-                <li>Or any other bad things</li>
-              </ul>
-
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-
-      <div id="schedule" class="schedule-container">
-        <div class="schedule">
-          <h1>Schedule</h1>
-
-          <div class="grid">
-            <div class="grid__col grid__col--1-of-3">
-              <h2 class="">Friday</h2>
-              <ul class="no-list-type">
-                <li><span class="time">5-7pm</span> Registration</li>
-                <li><span class="time">5-7pm</span> Free Time</li>
-                <li><span class="time">6pm</span> Dinner</li>
-                <li><span class="time">7pm</span> Session 1</li>
-                <li><span class="time">10:30pm</span> Free Time</li>
-                <li><span class="time">12:30am</span> Lights Out</li>
-              </ul>
-            </div>
-            <div class="grid__col grid__col--1-of-3">
-              <h2 class="">Saturday</h2>
-              <ul class="no-list-type">
-                <li><span class="time">8:45am</span> Breakfast</li>
-                <li><span class="time">9:30am</span> Session 2</li>
-                <li><span class="time">10am</span> Workshop 1</li>
-                <li><span class="time">11am</span> Workshop 2</li>
-                <li><span class="time">12pm</span> Lunch</li>
-                <li><span class="time">1pm</span> Free Time</li>
-                <li><span class="time">5:30pm</span> Dinner</li>
-                <li><span class="time">7pm</span> Session 3</li>
-                <li><span class="time">10pm</span> Free Time</li>
-                <li><span class="time">12:30am</span> Lights Out</li>
-              </ul>
-            </div>
-            <div class="grid__col grid__col--1-of-3">
-              <h2 class="">Sunday</h2>
-              <ul class="no-list-type">
-                <li><span class="time">8:45am</span> Breakfast</li>
-                <li><span class="time">9:30am</span> Session 4</li>
-                <li><span class="time">12pm</span> Lunch</li>
-                <li><span class="time">1pm</span> Leave Camp</li>
-              </ul>
-            </div>
-          </div>
-
-          <h1 class="white underline">Free Time Activities</h1>
-            <p>
-              Lake Williamson offers a variety of activites
-              that will be available during free time
-            </p>
-          <div class="grid">
-            <div class="grid__col grid__col--1-of-3">
-              <h2 class="">Friday</h2>
-              <ul class="no-list-type">
-                <li>5-7pm Rec Center</li>
-                <li>10:30-12am Rec Center/Café</li>
-              </ul>
-            </div>
-            <div class="grid__col grid__col--1-of-3">
-              <h2 class="">Saturday</h2>
-              <ul class="no-list-type">
-                <li>12:30-4pm Rec Center</li>
-                <li>1-4pm Climbing Wall</li>
-                <li>1-4pm Pool/Hot Tub</li>
-                <li>1pm High School Dodgeball</li>
-                <li>2:30pm Junior High Dodgeball</li>
-                <li>10pm-12am Rec Center/Café</li>
-              </ul>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-
-      <div id="register" class="container">
-        <div class="register">
-          <h1>Registration Information</h1>
-
-          <p>
-            1) The base cost of registration is $140. After February 5th,
-            the price will raise to $160. The cost includes food, lodging,
-            and most activities. Some churches may charge additional money
-            for travel. Speak to your church's leader for more information.
-          </p> <br />
-          <p>
-            2) You may pay later by choosing "pay later" under
-            payment option. Some churches may elect to have their
-            students pay later and submit a payment directly to their
-            church. Speak to your church's leader for more inforomation.
-          </p> <br />
-          <p>
-            3) Please be sure to put the STUDENT'S NAME at the beginning
-            of the form (not the parent/guardian name).
-          </p> <br />
-          <p>
-            4) T-Shirts are included in the cost of the conference.
-            Additional sizes may not be available if you register late.
-          </p> <br />
-          <p>
-            5) Feel free to send your student with spending money.
-            We have a cafe with snacks and merchandise available for sale.
+          <h2 class="text-center">When is Reverb?</h2>
+          <p class="">
+            <span class="">Date:</span> Feb 23-25 |
+            <span class="">Cost:</span> $140 (before Feb 5th) |
+            <span class="">Where:</span> <a href="http://www.lakewilliamson.org" target="_blank" class="">Lake Williamson Retreat Center</a>
           </p>
 
-          <a href="https://www.eiseverywhere.com/ereg/index.php?eventid=294111&" target="_blank">Register</a>
-
-          <!-- <a href="https://www.eiseverywhere.com/ereg/index.php?eventid=294111&" target="_blank">Register</a> -->
-
-          <!-- <a href="#">Register</a> -->
-
-        </div>
-
-      </div>
+    </div> -->
 
 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="rellax.min.js"></script>
 
-    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script> -->
+    <script type="text/javascript">
+
+    /*
+
+      $(document).ready(function(){
+        var $nav = $('.nav');//Caching element
+        // hide .navbar first - you can also do this in css .nav{display:none;}
+        $nav.hide();
+
+        // fade in .navbar
+        $(function () {
+            $(window).scroll(function () {
+                // set distance user needs to scroll before we start fadeIn
+                if ($(this).scrollTop() > 100) { //For dynamic effect use $nav.height() instead of '100'
+                    $nav.fadeIn(500);
+                } else {
+                    $nav.fadeOut(500);
+                }
+            });
+        });
+      });
+
+      */
+
+
+      $(document).ready(function(){
+        var $nav = $('.nav');//Caching element
+        // hide .navbar first - you can also do this in css .nav{display:none;}
+        // $nav.hide();
+
+        // fade in .navbar
+        $(function () {
+            $(window).scroll(function () {
+                // set distance user needs to scroll before we start fadeIn
+                if ($(this).scrollTop() > 200) { //For dynamic effect use $nav.height() instead of '100'
+                    $nav.addClass("nav-background");
+                } else {
+                    $nav.removeClass("nav-background");
+                }
+            });
+        });
+      });
+
+      // parallax
+      var rellax = new Rellax(".rellax");
+
+    </script>
 
 
   </body>
 
-  <script>
 
-    // $().ready ({
-    //
-    // });
-
-  </script>
 
 </html>
