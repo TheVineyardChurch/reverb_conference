@@ -37,9 +37,15 @@
   </head>
   <body style="overflow: hidden; background: linear-gradient(to bottom right, #5b247a, #1bcedf);">
 
-    <nav class="nav navbar navbar-dark" >
+    <nav class="nav navbar" >
         <a class="navbar-brand" href="index.html"><img src="./assets/reverb_logo.png"/></a>
-        <span style="cursor: pointer; font-size: 40px; color: white;" onclick="openNav()">&#9776;</span>
+        <!-- <span style="cursor: pointer; font-size: 40px; color: white;" onclick="openNav()">&#9776;</span> -->
+        <a href="#" class="register-nav ml-auto">Register</a>
+        <div class="menu-container" onclick="openNav()">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
     </nav>
 
     <div id="myNav" class="overlay">
@@ -54,68 +60,7 @@
       </div>
     </div>
 
-      <!-- <nav class="nav navbar fixed-top navbar-dark" > // style="background-color: black;">
-          <a class="navbar-brand" href="index.html"><img src="./assets/reverb_logo.png"/></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
 
-
-
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>  /// span class="sr-only">(current)</span></a
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="speakers.html">Speakers</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="schedule.html">Schedule</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Store</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Register</a>
-              </li>
-            </ul>
-          </div>
-
-      </nav> -->
-
-    <!-- <header class="v-header v-container">
-
-      <div class="fullscreen-video-wrap">
-        <video src="./assets/street.mov" autoplay="true" loop="true" muted="true">
-        </video>
-      </div>
-
-      <div class="header-content rellax">
-        <h1 class="pb-3 display-4 text-uppercase">Youth Conf</h1>
-        <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Register</a>
-      </div>
-    </header> -->
-
-    <!-- <div id="about" class="container-md">
-          <h2 class="text-center mt-5">What is Reverb?</h2>
-          <p class="">
-            Reverb is the annual Regional Vineyard Conference for students 6th-12th grade.
-            The purpose of this conference is to gather Vineyard Youth Ministries from all
-            around the Midwest (and beyond) to extend the Kingdom, to bring life to our students,
-            and to experience the power and presence of God. We welcome
-            groups of all sizes to join us for this fun, action-packed weekend!
-          </p>
-
-          <h2 class="text-center">When is Reverb?</h2>
-          <p class="">
-            <span class="">Date:</span> Feb 23-25 |
-            <span class="">Cost:</span> $140 (before Feb 5th) |
-            <span class="">Where:</span> <a href="http://www.lakewilliamson.org" target="_blank" class="">Lake Williamson Retreat Center</a>
-          </p>
-
-    </div> -->
 
 
     <!-- Optional JavaScript -->
@@ -126,29 +71,6 @@
     <script src="/assets/js/rellax.min.js"></script>
 
     <script type="text/javascript">
-
-    /*
-
-      $(document).ready(function(){
-        var $nav = $('.nav');//Caching element
-        // hide .navbar first - you can also do this in css .nav{display:none;}
-        $nav.hide();
-
-        // fade in .navbar
-        $(function () {
-            $(window).scroll(function () {
-                // set distance user needs to scroll before we start fadeIn
-                if ($(this).scrollTop() > 100) { //For dynamic effect use $nav.height() instead of '100'
-                    $nav.fadeIn(500);
-                } else {
-                    $nav.fadeOut(500);
-                }
-            });
-        });
-      });
-
-      */
-
 
       $(document).ready(function(){
         var $nav = $('.nav');//Caching element
@@ -176,9 +98,6 @@
           document.getElementById("myNav").style.width = "0%";
       }
 
-      function alert() {
-        alert("Hello");
-      }
 
       // parallax
       var rellax = new Rellax(".rellax");
