@@ -33,13 +33,18 @@ a:hover {
   text-decoration: none;
 }
 
-.vh-75 {
-  height: 75vh;
+.vh-50 {
+  height: 50vh;
   width: 100%;
 }
 
 .bg-gradient {
   background: linear-gradient(to bottom right, #5b247a, #1bcedf);
+}
+
+.guest-shot {
+  width: auto;
+  height: 200px;
 }
 
 /* DELETE */
@@ -187,8 +192,21 @@ a:hover {
 } */
 
 .promo-video {
-  width: 560px;
-  height: 315px;
+  /* width: 560px;
+  height: 315px; */
+  width: 800px;
+  height: 450px;
+  /* object-fit: fill; */
+}
+
+.txt-white {
+  color: white;
+}
+
+.gradient-header {
+  background: -webkit-linear-gradient(#FF7676, #F54EA2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* @media screen and (max-width: 800px) {
