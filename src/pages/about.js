@@ -52,12 +52,13 @@ const theme = {
 const speakerTitle = {
   color: '#f2f4f4',
   textShadow:`
-      2px 2px 0 #222222,
-      -2px 2px 0 #222222,
-      -2px -2px 0 #222222,
-      2px -2px 0 #222222
+      3px 3px 0 #222222,
+      -3px 3px 0 #222222,
+      -3px -3px 0 #222222,
+      3px -3px 0 #222222
   `,
-  textTransform: 'uppercase'
+  textTransform: 'uppercase',
+  fontWeight: '800'
 }
 
 const About = () => (
