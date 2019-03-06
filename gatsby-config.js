@@ -20,7 +20,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `sons-and-daughters`,
-        short_name: `starter`,
+        short_name: `sonsdaughters`,
         start_url: `/`,
         background_color: `#222222`,
         theme_color: `#222222`,
