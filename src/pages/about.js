@@ -45,6 +45,12 @@ const About = () => (
 
       <Schedule />
 
+      <div className="uk-margin-large-top">
+        <div className="uk-text-center">
+          <a className="uk-button uk-button-secondary uk-margin-right uk-button-large" href={registerURL}>Register</a>
+        </div>
+      </div>
+
       <Footer />
     </div>
   </div>
