@@ -79,10 +79,18 @@ const About = () => (
     <SEO title="About" />
     <div className="uk-container">
       <h1 className="uk-heading-hero" style={confTitle}>Sons & Daughters</h1>
-      <iframe style={promoVideo}
-        src={videoURL} title="Sons and Daughters Promo"
-        frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
-      </iframe>
+      <div className="uk-grid uk-margin-large-bottom">
+        <div className="uk-width-auto@m">
+          <iframe className="promo-video"
+            src={videoURL} title="Sons and Daughters Promo"
+            frameborder="0" width="640" height="360" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+          </iframe>
+        </div>
+        <div className="uk-width-expand@m">
+          <p>About</p>
+        </div>
+      </div>
+
 
       <h1 className="uk-heading-hero" style={speakerTitle}>Speakers</h1>
       <Speaker
