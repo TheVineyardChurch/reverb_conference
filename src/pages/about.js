@@ -5,6 +5,7 @@ import "../components/layout.css"
 
 import Guests from "../components/guests"
 import Header from "../components/header"
+import Schedule from "../components/schedule"
 
 import SEO from "../components/seo"
 
@@ -40,6 +41,8 @@ const About = () => (
       </div>
 
       <Guests />
+
+      <Schedule />
 
       <Link to="/">Go back to the homepage</Link>
     </div>
