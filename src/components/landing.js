@@ -1,5 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
+
 import "./video.css"
 
 
@@ -39,7 +40,7 @@ const Landing = () => (
 
       <div className="vimeo-wrapper">
         <iframe
-          src={videoURL}
+          src={videoURL} title="Sons and Daughters Promo"
           frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
         </iframe>
         <div
@@ -55,7 +56,7 @@ const Landing = () => (
           >
           <div className="landing-links">
             <a style={buttonLeft} href={registerURL}>Early-Bird</a>
-            <Link style={button} to='/page-2'>Learn More</Link>
+            <Link style={button} to='/about'>Learn More</Link>
           </div>
         </div>
       </div>
