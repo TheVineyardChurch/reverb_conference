@@ -31,15 +31,40 @@ const Kyle = {
   basketball, golf, and hang out with friends.`
 }
 
+const Leah = {
+  name: "Leah Wenger",
+  bio: `Leah is a born and raised Vineyard kid and has served as a pastor for
+  the last 11 years at The Vineyard Church of Central IL. From youth ministry
+  to planting a multi-site church- she's experienced it all. Leah is a graduate
+  of the University of Illinois, Vineyard Leadership Institute and The School of
+  Kingdom Ministry and is most passionate about creating a healthy stewardship
+  culture and raising up leaders of leaders.  She has been married to her husband
+  Ben for 13 years and has three awesome (exhausting) kids; Cohen (8), Claire (6)
+  and Gia (4).  In her spare time, she loves to preach, play the guitar, travel
+  and drink all.the.coffee.`
+}
+
 const theme = {
   backgroundColor: '#f2f4f4',
   color: '#222222',
+}
+
+const speakerTitle = {
+  color: '#f2f4f4',
+  textShadow:`
+      2px 2px 0 #222222,
+      -2px 2px 0 #222222,
+      -2px -2px 0 #222222,
+      2px -2px 0 #222222
+  `,
+  textTransform: 'uppercase'
 }
 
 const About = () => (
   <div style={theme}>
     <div className="uk-container">
       <SEO title="About" />
+      <h1 className="uk-heading-hero" style={speakerTitle}>Speakers</h1>
       <Speaker
         speakerName={Putty.name}
         speakerBio={Putty.bio}
@@ -47,6 +72,10 @@ const About = () => (
       <Speaker
         speakerName={Kyle.name}
         speakerBio={Kyle.bio}
+      />
+      <Speaker
+        speakerName={Leah.name}
+        speakerBio={Leah.bio}
       />
       <Link to="/">Go back to the homepage</Link>
     </div>
