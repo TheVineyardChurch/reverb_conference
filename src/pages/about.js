@@ -1,11 +1,12 @@
 import React from "react"
-import { Link } from "gatsby"
+
 import "../components/uikit.min.css"
 import "../components/layout.css"
 
 import Guests from "../components/guests"
 import Header from "../components/header"
 import Schedule from "../components/schedule"
+import Footer from "../components/footer"
 
 import SEO from "../components/seo"
 
@@ -44,7 +45,7 @@ const About = () => (
 
       <Schedule />
 
-      <Link to="/">Go back to the homepage</Link>
+      <Footer />
     </div>
   </div>
 )
