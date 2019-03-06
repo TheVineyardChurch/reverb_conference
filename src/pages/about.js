@@ -65,18 +65,22 @@ const About = () => (
   <div style={theme}>
     <div className="uk-container">
       <SEO title="About" />
+
       <h1 className="uk-heading-hero" style={speakerTitle}>Speakers</h1>
       <Speaker
         speakerName={Putty.name}
         speakerBio={Putty.bio}
+        speakerImg="https://images.unsplash.com/photo-1551742911-f6f80ef2b602?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1875&q=80"
       />
       <Speaker
         speakerName={Kyle.name}
         speakerBio={Kyle.bio}
+        speakerImg="https://images.unsplash.com/photo-1551742911-f6f80ef2b602?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1875&q=80"
       />
       <Speaker
         speakerName={Leah.name}
         speakerBio={Leah.bio}
+        speakerImg="https://images.unsplash.com/photo-1551742911-f6f80ef2b602?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1875&q=80"
       />
       <Link to="/">Go back to the homepage</Link>
     </div>
