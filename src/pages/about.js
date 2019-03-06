@@ -1,9 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
 import "../components/uikit.min.css"
+import "../components/layout.css"
 import Speaker from "../components/speaker"
 
 import SEO from "../components/seo"
+
+const videoURL= 'https://player.vimeo.com/video/318806849';
 
 const Putty = {
   name: "Putty Putman",
@@ -49,6 +52,12 @@ const theme = {
   color: '#222222',
 }
 
+const confTitle = {
+  color: '#222222',
+  textTransform: 'uppercase',
+  fontWeight: '800'
+}
+
 const speakerTitle = {
   color: '#f2f4f4',
   textShadow:`
@@ -61,11 +70,20 @@ const speakerTitle = {
   fontWeight: '800'
 }
 
+const promoVideo = {
+
+}
+
 const About = () => (
   <div style={theme}>
     <SEO title="About" />
-
     <div className="uk-container">
+      <h1 className="uk-heading-hero" style={confTitle}>Sons & Daughters</h1>
+      <iframe style={promoVideo}
+        src={videoURL} title="Sons and Daughters Promo"
+        frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+      </iframe>
+
       <h1 className="uk-heading-hero" style={speakerTitle}>Speakers</h1>
       <Speaker
         speakerName={Putty.name}

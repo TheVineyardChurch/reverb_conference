@@ -15,7 +15,6 @@ const Speaker = ({ speakerName, speakerBio, speakerImg }) => (
       <div className="uk-width-expand@m">
         <h2>{speakerName}</h2>
         <p>{speakerBio}</p>
-
       </div>
     </div>
   </div>
