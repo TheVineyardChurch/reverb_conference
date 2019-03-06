@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Sons & Daughters`,
-    description: `Kick off your next, great Gatsby project with this default starter.
-        This barebones starter ships with the main Gatsby configuration files you might need.`
+    description: `Sons & Daughters is a conference dedicated to training,
+    equipping, and encouraging students to step into the fullness of their identity
+    as sons & daughters of God`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
