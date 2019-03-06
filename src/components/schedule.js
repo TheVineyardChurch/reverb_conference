@@ -20,26 +20,26 @@ const Schedule = () => (
       <div>
         <div className="uk-card uk-card-body uk-card-default">
           <h2 class="uk-card-title">Friday</h2>
-          <p>8:00 am - Breakfast</p>
-          <p>9:00 am - Session 2</p>
-          <p>10:30 am -	Break</p>
-          <p>10:45 am - Workshop 1</p>
-          <p>11:45 am - Lunch</p>
-          <p>1:00 pm - Workshop 2</p>
-          <p>2:00 pm - Workshop 3</p>
-          <p>3:00 pm - Power Evangelism</p>
-          <p>5:30 pm - Dinner</p>
-          <p>7:00 pm - Session 3</p>
+          <p>8:00am - Breakfast</p>
+          <p>9:00am - Session 2</p>
+          <p>10:30am -	Break</p>
+          <p>10:45am - Workshop 1</p>
+          <p>11:45am - Lunch</p>
+          <p>1:00pm - Workshop 2</p>
+          <p>2:00pm - Workshop 3</p>
+          <p>3:00pm - Power Evangelism</p>
+          <p>5:30pm - Dinner</p>
+          <p>7:00pm - Session 3</p>
         </div>
       </div>
       <div>
         <div className="uk-card uk-card-body uk-card-default">
           <h2 class="uk-card-title">Saturday</h2>
-          <p>8:00 am - Breakfast</p>
-          <p>9:00 am - Session 4</p>
-          <p>10:30 am -	Break</p>
-          <p>10:45 am	- Q & A</p>
-          <p>11:45 am	- Lunch To Go</p>
+          <p>8:00am - Breakfast</p>
+          <p>9:00am - Session 4</p>
+          <p>10:30am -	Break</p>
+          <p>10:45am	- Q & A</p>
+          <p>11:45am	- Lunch To Go</p>
         </div>
       </div>
     </div>
