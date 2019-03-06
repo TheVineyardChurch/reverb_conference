@@ -27,8 +27,8 @@ const Landing = () => (
         }}
       >
       <div className="landing-links">
-        <a className="uk-button uk-button-secondary uk-margin-right uk-button-large" href={registerURL}>Early-Bird</a>
-        <Link className="uk-button uk-button-secondary uk-button-large" to='/about'>Learn More</Link>
+        <a style={{color: 'white', fontSize: '1.2rem'}} className="uk-button uk-button-default uk-margin-right uk-button-large" href={registerURL}>Early-Bird</a>
+        <Link style={{color: 'white', fontSize: '1.2rem'}} className="uk-button uk-button-default uk-button-large" to='/about'>Learn More</Link>
       </div>
     </div>
   </div>
