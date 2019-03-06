@@ -1,5 +1,6 @@
 import React from "react"
-import "../components/layout.css"
+
+import "../components/uikit.min.css"
 
 import SEO from "../components/seo"
 import Landing from "../components/landing"

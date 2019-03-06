@@ -7,22 +7,6 @@ import "./video.css"
 const videoURL= 'https://player.vimeo.com/video/318806849?muted=1&autoplay=1&loop=1';
 const registerURL= 'https://thevineyardchurch.ccbchurch.com/goto/forms/915/responses/new';
 
-const buttonLeft = {
-  color: '#f2f4f4',
-  padding: '15px',
-  backgroundColor: '#222222',
-  border: '1px solid white',
-  textDecoration: 'none',
-  marginRight: '10px'
-};
-
-const button = {
-  color: '#f2f4f4',
-  padding: '15px',
-  backgroundColor: '#222222',
-  border: '1px solid white',
-  textDecoration: 'none'
-};
 
 const Landing = () => (
 
@@ -55,8 +39,8 @@ const Landing = () => (
             }}
           >
           <div className="landing-links">
-            <a style={buttonLeft} href={registerURL}>Early-Bird</a>
-            <Link style={button} to='/about'>Learn More</Link>
+            <a className="uk-button uk-button-secondary uk-margin-right uk-button-large" href={registerURL}>Early-Bird</a>
+            <Link className="uk-button uk-button-secondary uk-button-large" to='/about'>Learn More</Link>
           </div>
         </div>
       </div>
