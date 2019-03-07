@@ -8,6 +8,13 @@ body {
   }
 }
 
+::selection {
+  background: #222222; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #222222; /* Gecko Browsers */
+}
+
 /*
 html {
   font-family: sans-serif;
