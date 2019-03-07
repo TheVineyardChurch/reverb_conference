@@ -13,7 +13,7 @@ const Landing = () => (
   <div className="vimeo-wrapper">
     <iframe
       src={videoURL} title="Sons and Daughters Promo"
-      frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+      frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowFullScreen>
     </iframe>
     <div
         style={{

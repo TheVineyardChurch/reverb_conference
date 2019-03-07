@@ -12,14 +12,14 @@ const Schedule = () => (
     <div className="uk-grid uk-grid-match uk-child-width-expand@s">
       <div>
         <div className="uk-card uk-card-default uk-card-body">
-          <h2 class="uk-card-title">Thursday</h2>
+          <h2 className="uk-card-title">Thursday</h2>
           <p>5:00pm -	Registration Open</p>
           <p>7:00pm -	Session 1</p>
         </div>
       </div>
       <div>
         <div className="uk-card uk-card-body uk-card-default">
-          <h2 class="uk-card-title">Friday</h2>
+          <h2 className="uk-card-title">Friday</h2>
           <p>8:00am - Breakfast</p>
           <p>9:00am - Session 2</p>
           <p>10:30am -	Break</p>
@@ -34,7 +34,7 @@ const Schedule = () => (
       </div>
       <div>
         <div className="uk-card uk-card-body uk-card-default">
-          <h2 class="uk-card-title">Saturday</h2>
+          <h2 className="uk-card-title">Saturday</h2>
           <p>8:00am - Breakfast</p>
           <p>9:00am - Session 4</p>
           <p>10:30am -	Break</p>

@@ -15,7 +15,7 @@ const Header = () => (
       <div className="uk-width-auto@m">
         <iframe className="promo-video"
           src={videoURL} title="Sons and Daughters Promo"
-          frameborder="0" width="640" height="360" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+          frameBorder="0" width="640" height="360" webkitallowfullscreen="true" mozallowfullscreen="true" allowFullScreen>
         </iframe>
       </div>
       <div className="uk-width-expand@m">
