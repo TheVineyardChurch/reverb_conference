@@ -23,3 +23,9 @@
 .landing-links {
   font-weight: bold;
 }
+
+@media screen and (max-width: 600px) {
+  .landing-links {
+    text-align: center;
+  }
+}
