@@ -15,7 +15,8 @@ const Putty = {
   and pursuing an intimate relationship with God. What began with four people
   as a small group grew to multiple groups, then the first campus of the School
   of Kingdom Ministry, and now multiple locations around the world. He is a
-  gifted communicator with a powerful message of identity.`
+  gifted communicator with a powerful message of identity.`,
+  img: "https://s3.us-east-2.amazonaws.com/assets-reverb.us/guests/PuttyPutman.jpg"
 }
 
 const Kyle = {
@@ -27,7 +28,8 @@ const Kyle = {
   He is featured on worship albums for the National Vineyard and VWorship.
   Kyle now serves on staff at The Vineyard Church of Central Illinois as
   Worship Pastor. When he isn’t leading worship, Kyle loves to play
-  basketball, golf, and hang out with friends.`
+  basketball, golf, and hang out with friends.`,
+  img: "https://s3.us-east-2.amazonaws.com/assets-reverb.us/guests/KyleHoward.jpeg"
 }
 
 const Leah = {
@@ -40,7 +42,8 @@ const Leah = {
   culture and raising up leaders of leaders.  She has been married to her husband
   Ben for 13 years and has three awesome (exhausting) kids; Cohen (8), Claire (6)
   and Gia (4).  In her spare time, she loves to preach, play the guitar, travel
-  and drink all.the.coffee.`
+  and drink all.the.coffee.`,
+  img: "https://s3.us-east-2.amazonaws.com/assets-reverb.us/guests/LeahWenger.jpeg"
 }
 
 const Carolyn = {
@@ -62,7 +65,8 @@ const Carolyn = {
   a current vision to pursue creating book/video studies for women on
   image and identity. Her pioneering spirit keeps all who live life with
   her on the edge of their seat, wondering which mountain she will climb
-  next, what adventure they will take with her.`
+  next, what adventure they will take with her.`,
+  img: "https://s3.us-east-2.amazonaws.com/assets-reverb.us/guests/CarolynYoder.jpeg"
 }
 
 const Dan = {
@@ -79,7 +83,8 @@ const Dan = {
   the local church and at the School of Kingdom Ministry he has trained hundreds
   of people in healing, giving prophetic words, and how to work with the Holy Spirit.
   His dream is to make a partnership with the Holy Spirit a regular part of every
-  Christian's experience.`
+  Christian's experience.`,
+  img: "https://s3.us-east-2.amazonaws.com/assets-reverb.us/guests/DanielPutman.jpeg"
 }
 
 const Clay = {
@@ -95,12 +100,14 @@ const Clay = {
   supernatural lifestyles, and provokes the church to live radically for
   Jesus. Clay is married to his wife, Regina, and has two sets of boy-girl
   twins. He currently works as the Evangelism Pastor at the Vineyard Church
-  in Urbana, IL.`
+  in Urbana, IL.`,
+  img: "https://s3.us-east-2.amazonaws.com/assets-reverb.us/guests/ClayHarrington.jpeg"
 }
 
 const Jo = {
   name: "Joanna Machen",
-  bio: `Bio coming soon`
+  bio: `Bio coming soon`,
+  img: "https://s3.us-east-2.amazonaws.com/assets-reverb.us/guests/JoannaMachen.jpeg"
 }
 
 
@@ -124,39 +131,39 @@ const Guests = () => (
     <Speaker
       speakerName={Putty.name}
       speakerBio={Putty.bio}
-      speakerImg="https://images.unsplash.com/photo-1551742911-f6f80ef2b602?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1875&q=80"
+      speakerImg={Putty.img}
     />
     <Speaker
       speakerName={Carolyn.name}
       speakerBio={Carolyn.bio}
-      speakerImg="https://images.unsplash.com/photo-1551742911-f6f80ef2b602?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1875&q=80"
+      speakerImg={Carolyn.img}
     />
     <Speaker
       speakerName={Kyle.name}
       speakerBio={Kyle.bio}
-      speakerImg="https://images.unsplash.com/photo-1551742911-f6f80ef2b602?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1875&q=80"
+      speakerImg={Kyle.img}
     />
     <Speaker
       speakerName={Leah.name}
       speakerBio={Leah.bio}
-      speakerImg="https://images.unsplash.com/photo-1551742911-f6f80ef2b602?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1875&q=80"
+      speakerImg={Leah.img}
     />
 
     <h1 className="uk-heading-hero" style={outlineTitle}>Workshops</h1>
     <Speaker
       speakerName={Dan.name}
       speakerBio={Dan.bio}
-      speakerImg="https://images.unsplash.com/photo-1551742911-f6f80ef2b602?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1875&q=80"
+      speakerImg={Dan.img}
     />
     <Speaker
       speakerName={Clay.name}
       speakerBio={Clay.bio}
-      speakerImg="https://images.unsplash.com/photo-1551742911-f6f80ef2b602?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1875&q=80"
+      speakerImg={Clay.img}
     />
     <Speaker
       speakerName={Jo.name}
       speakerBio={Jo.bio}
-      speakerImg="https://images.unsplash.com/photo-1551742911-f6f80ef2b602?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1875&q=80"
+      speakerImg={Jo.img}
     />
   </div>
 )

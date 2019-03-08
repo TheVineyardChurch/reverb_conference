@@ -2,8 +2,8 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const speakerHeadshot = {
-  width: '400px',
-  height: '300px'
+  width: '350px',
+  height: '350px'
 }
 
 const Speaker = ({ speakerName, speakerBio, speakerImg }) => (
