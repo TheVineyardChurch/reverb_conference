@@ -101,7 +101,7 @@ const Clay = {
   Jesus. Clay is married to his wife, Regina, and has two sets of boy-girl
   twins. He currently works as the Evangelism Pastor at the Vineyard Church
   in Urbana, IL.`,
-  img: "https://s3.us-east-2.amazonaws.com/assets-reverb.us/guests/ClayHarrington.jpeg"
+  img: "https://s3.us-east-2.amazonaws.com/assets-reverb.us/guests/ClayHarrington.JPG"
 }
 
 const Jo = {
