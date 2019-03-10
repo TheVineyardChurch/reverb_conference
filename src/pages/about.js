@@ -4,6 +4,7 @@ import "../components/uikit.min.css"
 import "../components/layout.css"
 
 import Guests from "../components/guests"
+import Directors from "../components/directors"
 import Header from "../components/header"
 import Schedule from "../components/schedule"
 import Footer from "../components/footer"
@@ -50,6 +51,8 @@ const About = () => (
           <a className="uk-button uk-button-secondary uk-margin-right uk-button-large" href={registerURL}>Register</a>
         </div>
       </div>
+
+      <Directors />
 
       <Footer />
     </div>
