@@ -106,8 +106,37 @@ const Clay = {
 
 const Jo = {
   name: "Joanna Machen",
-  bio: `Bio coming soon`,
+  bio: `Joanna Machen is a passionate worshiper of God and lover of pizza...no,
+  just kidding. Starting again...Literally just googled "how to write a short
+  bio for church". According to google I should tell you that I grew up in
+  the awesome little village of Metamora, Illinois, where Abraham Lincoln was
+  a circuit court lawyer. We have a terrible statue of him in the town square
+  to prove it. They must have been short on funds though, cuz our Lincoln
+  statue is just plain short. I grew up as a pastor's kid and have known
+  God from my earliest memories. In High School I finally met Holy Spirit in
+  a powerful encounter, and my “religion” changed into a relationship. Since
+  then I have loved getting to know Jesus more and more, and learning to hear
+  His voice. I currently attend the Vineyard Church in Champaign-Urbana where I
+  am a worship leader and member of the prayer team. Whether I’m singing praise
+  or praying for people, I have learned that there is nothing like hearing the
+  voice of the Father. I’m excited to share my experiences and help you dive
+  deeper into hearing God.`,
   img: "https://s3.us-east-2.amazonaws.com/assets-reverb.us/guests/JoannaMachen.jpeg"
+}
+
+const Tess = {
+  name: "Tess Hernandez-Sansone",
+  bio: `I am an Arizona native and grew up in the Vineyard Church. I love
+  bringing people into face to face encounters with Jesus. In worship, I can
+  see that God is good. He’s better than I thought he was. By singing songs of
+  adoration, we can find the ease and beauty of surrender. When we fully and
+  clearly see who God really is, we see how worthy he is of our whole lives.
+  At age 13, I experienced the powerful, tangible presence of God and began to
+  see miracles that changed my life. She began leading worship in her school and
+  youth group and eventually toured with Unseen Youth Conferences in Arizona and Colorado.
+  Tess is now on staff at The Vineyard Church of Central IL on the communications
+  team and serves as the Sunday morning worship director for Revolution at Urbana.`,
+  img: "https://s3.us-east-2.amazonaws.com/assets-reverb.us/guests/TessSansone.jpeg"
 }
 
 
@@ -120,6 +149,7 @@ const outlineTitle = {
       -3px -3px 0 #222222,
       3px -3px 0 #222222
   `,
+  WebkitFontSmoothing: 'antialiased',
   textTransform: 'uppercase',
   fontWeight: '800'
 }
@@ -147,6 +177,11 @@ const Guests = () => (
       speakerName={Leah.name}
       speakerBio={Leah.bio}
       speakerImg={Leah.img}
+    />
+    <Speaker
+      speakerName={Tess.name}
+      speakerBio={Tess.bio}
+      speakerImg={Tess.img}
     />
 
     <h1 className="uk-heading-hero" style={outlineTitle}>Workshops</h1>
