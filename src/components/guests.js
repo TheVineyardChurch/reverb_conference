@@ -16,7 +16,8 @@ const Putty = {
   as a small group grew to multiple groups, then the first campus of the School
   of Kingdom Ministry, and now multiple locations around the world. He is a
   gifted communicator with a powerful message of identity.`,
-  img: "https://s3.us-east-2.amazonaws.com/assets-reverb.us/guests/PuttyPutman.jpg"
+  img: "https://s3.us-east-2.amazonaws.com/assets-reverb.us/guests/PuttyPutman.jpg",
+  meta: "Speaker"
 }
 
 const Kyle = {
@@ -29,7 +30,8 @@ const Kyle = {
   Kyle now serves on staff at The Vineyard Church of Central Illinois as
   Worship Pastor. When he isn’t leading worship, Kyle loves to play
   basketball, golf, and hang out with friends.`,
-  img: "https://s3.us-east-2.amazonaws.com/assets-reverb.us/guests/KyleHoward.jpeg"
+  img: "https://s3.us-east-2.amazonaws.com/assets-reverb.us/guests/KyleHoward.jpeg",
+  meta: "Speaker & Worship"
 }
 
 const Leah = {
@@ -43,7 +45,8 @@ const Leah = {
   Ben for 13 years and has three awesome (exhausting) kids; Cohen (8), Claire (6)
   and Gia (4).  In her spare time, she loves to preach, play the guitar, travel
   and drink all.the.coffee.`,
-  img: "https://s3.us-east-2.amazonaws.com/assets-reverb.us/guests/LeahWenger.jpeg"
+  img: "https://s3.us-east-2.amazonaws.com/assets-reverb.us/guests/LeahWenger.jpeg",
+  meta: "Speaker"
 }
 
 const Carolyn = {
@@ -66,7 +69,8 @@ const Carolyn = {
   image and identity. Her pioneering spirit keeps all who live life with
   her on the edge of their seat, wondering which mountain she will climb
   next, what adventure they will take with her.`,
-  img: "https://s3.us-east-2.amazonaws.com/assets-reverb.us/guests/CarolynYoder.jpeg"
+  img: "https://s3.us-east-2.amazonaws.com/assets-reverb.us/guests/CarolynYoder.jpeg",
+  meta: "Speaker"
 }
 
 const Dan = {
@@ -136,7 +140,8 @@ const Tess = {
   youth group and eventually toured with Unseen Youth Conferences in Arizona and Colorado.
   Tess is now on staff at The Vineyard Church of Central IL on the communications
   team and serves as the Sunday morning worship director for Revolution at Urbana.`,
-  img: "https://s3.us-east-2.amazonaws.com/assets-reverb.us/guests/TessSansone.jpeg"
+  img: "https://s3.us-east-2.amazonaws.com/assets-reverb.us/guests/TessSansone.jpeg",
+  meta: "Worship"
 }
 
 
@@ -157,31 +162,36 @@ const outlineTitle = {
 /* exported for about page */
 const Guests = () => (
   <div>
-    <h1 className="uk-heading-hero" style={outlineTitle}>Speakers</h1>
+    <h1 className="uk-heading-hero" style={outlineTitle}>Guests</h1>
     <Speaker
       speakerName={Putty.name}
       speakerBio={Putty.bio}
       speakerImg={Putty.img}
+      speakerMeta={Putty.meta}
     />
     <Speaker
       speakerName={Carolyn.name}
       speakerBio={Carolyn.bio}
       speakerImg={Carolyn.img}
+      speakerMeta={Carolyn.meta}
     />
     <Speaker
       speakerName={Kyle.name}
       speakerBio={Kyle.bio}
       speakerImg={Kyle.img}
+      speakerMeta={Kyle.meta}
     />
     <Speaker
       speakerName={Leah.name}
       speakerBio={Leah.bio}
       speakerImg={Leah.img}
+      speakerMeta={Leah.meta}
     />
     <Speaker
       speakerName={Tess.name}
       speakerBio={Tess.bio}
       speakerImg={Tess.img}
+      speakerMeta={Tess.meta}
     />
 
     <h1 className="uk-heading-hero" style={outlineTitle}>Workshops</h1>

@@ -6,7 +6,7 @@ const speakerHeadshot = {
   height: '350px'
 }
 
-const Speaker = ({ speakerName, speakerBio, speakerImg }) => (
+const Speaker = ({ speakerName, speakerBio, speakerMeta, speakerImg }) => (
   <div key={speakerName}>
     <div className="uk-grid uk-margin-large-bottom">
       <div className="uk-width-auto@m">
@@ -14,6 +14,7 @@ const Speaker = ({ speakerName, speakerBio, speakerImg }) => (
       </div>
       <div className="uk-width-expand@m">
         <h2>{speakerName}</h2>
+        {speakerMeta ? <p className="uk-text-meta">{speakerMeta}</p> : null}
         <p>{speakerBio}</p>
       </div>
     </div>
@@ -24,6 +25,7 @@ Speaker.propTypes = {
   speakerName: PropTypes.string,
   speakerBio: PropTypes.string,
   speakerImg: PropTypes.string,
+  speakerMeta: PropTypes.string,
 }
 
 Speaker.defaultProps = {
