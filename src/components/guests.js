@@ -130,16 +130,16 @@ const Jo = {
 
 const Tess = {
   name: "Tess Hernandez-Sansone",
-  bio: `I am an Arizona native and grew up in the Vineyard Church. I love
-  bringing people into face to face encounters with Jesus. In worship, I can
-  see that God is good. He’s better than I thought he was. By singing songs of
-  adoration, we can find the ease and beauty of surrender. When we fully and
-  clearly see who God really is, we see how worthy he is of our whole lives.
-  At age 13, I experienced the powerful, tangible presence of God and began to
-  see miracles that changed my life. She began leading worship in her school and
-  youth group and eventually toured with Unseen Youth Conferences in Arizona and Colorado.
-  Tess is now on staff at The Vineyard Church of Central IL on the communications
-  team and serves as the Sunday morning worship director for Revolution at Urbana.`,
+  bio: `Tess Hernandez is an Arizona native who grew up in the Vineyard movement.
+  At age 13, she experienced the powerful, tangible presence of God and began to
+  see miracles that changed her life. After those experiences, she began leading
+  worship in her school, youth group, and eventually toured with Unseen Youth
+  Conferences in Arizona and Colorado. Tess’s heart is to bring people into face
+  to face encounters with Jesus in worship. By singing songs of adoration, we can
+  find the ease and beauty of surrender to a Father that is fully present, good,
+  and worthy of all our lives. Tess is now on staff at The Vineyard Church of
+  Central IL on the Communications Team and serves as the Sunday morning worship
+  director for Revolution at Urbana.`,
   img: "https://s3.us-east-2.amazonaws.com/assets-reverb.us/guests/TessSansone.jpeg",
   meta: "Worship"
 }
