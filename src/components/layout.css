@@ -19,6 +19,10 @@ body {
   }
 }
 
+.uk-text-meta {
+  color: #5a5a5a;
+}
+
 ::selection {
   background: #222222; /* WebKit/Blink Browsers */
 }
