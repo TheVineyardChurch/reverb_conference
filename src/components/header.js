@@ -12,13 +12,13 @@ const Header = () => (
   <div>
     <h1 className="uk-heading-hero" style={confTitle}>Sons & Daughters</h1>
     <div className="uk-grid uk-margin-large-bottom">
-      <div className="uk-width-auto@m">
+      <div className="uk-width-auto@l">
         <iframe className="promo-video"
           src={videoURL} title="Sons and Daughters Promo"
           frameBorder="0" width="640" height="360" webkitallowfullscreen="true" mozallowfullscreen="true" allowFullScreen>
         </iframe>
       </div>
-      <div className="uk-width-expand@m">
+      <div className="uk-width-expand@l">
         <p>We have been restored to perfect unity with our Heavenly Father.
           Our relationship with Him is one that does not include our past
           mistakes but unlocks endless possibilities within our present and
