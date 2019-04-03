@@ -35,7 +35,8 @@ const About = () => (
         <p>
         <span className="uk-text-bold">Cost: $89</span> ($99 after Early-Bird ENDS on March 31st) <br />
         Week of: $109 June 17th-June 20th <br />
-        (No refunds after June 16th)
+        (No refunds after June 16th) <br />
+        Registration price includes lodging and  food
         </p>
         <div className="uk-text-center">
           <a className="uk-button uk-button-secondary uk-margin-right uk-button-large" href={registerURL}>Register</a>
