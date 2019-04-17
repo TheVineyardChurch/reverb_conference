@@ -32,8 +32,8 @@ const About = () => (
           <span className="uk-text-bold">Where:</span> The Vineyard Church of Central Illinois, 1500 N. Lincoln Ave. Urbana, IL 61801
         </p>
         <p>
-        <span className="uk-text-bold">Cost: $99<br />
-        Week of: $109 June 17th-June 20th <br />
+        <span className="uk-text-bold">Cost:</span> $99<br />
+        <span className="uk-text-bold">Week of (June 17th-June 20th):</span> $109<br />
         (No refunds after June 16th) <br />
         Registration price includes lodging and  food
         </p>
