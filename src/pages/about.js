@@ -28,12 +28,11 @@ const About = () => (
 
       <div className="uk-margin-large-bottom">
         <p>
-          <span className="uk-text-bold">When:</span> June 20th - 22nd <br />
-          <span className="uk-text-bold">Time:</span> Friday: 6pm- 10pm  // Saturday: 8am-10pm <br />
+          <span className="uk-text-bold">When:</span> June 20th @ 6pm - June 22nd @ 12pm <br />
           <span className="uk-text-bold">Where:</span> The Vineyard Church of Central Illinois, 1500 N. Lincoln Ave. Urbana, IL 61801
         </p>
         <p>
-        <span className="uk-text-bold">Cost: $89</span> ($99 after Early-Bird ENDS on March 31st) <br />
+        <span className="uk-text-bold">Cost: $99<br />
         Week of: $109 June 17th-June 20th <br />
         (No refunds after June 16th) <br />
         Registration price includes lodging and  food
