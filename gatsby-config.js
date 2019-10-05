@@ -19,8 +19,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `sons-and-daughters`,
-        short_name: `sonsdaughters`,
+        name: `Reverb Youth Conference`,
+        short_name: `reverbyouth`,
         start_url: `/`,
         background_color: `#222222`,
         theme_color: `#222222`,
