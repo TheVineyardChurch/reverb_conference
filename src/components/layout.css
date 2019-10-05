@@ -1,10 +1,11 @@
-body {
-  background-color: #f2f4f4;
+html, body {
+  background-color: #0c0c0c;
 }
 
 @media screen and (max-width: 700px) {
   .promo-video {
     width: 100%;
+    margin: 0 auto;
   }
 
   .uk-heading-hero {
@@ -19,8 +20,22 @@ body {
   }
 }
 
+@media screen and (max-width: 700px) {
+  .promo-video {
+    height: 100%;
+  }
+}
+
+.promo-video {
+  height: 600px;
+}
+
 .uk-text-meta {
-  color: #5a5a5a;
+  color: #efefef;
+}
+
+.uk-text-lead {
+  color: #fff;
 }
 
 ::selection {

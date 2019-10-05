@@ -4,6 +4,7 @@ import "../components/uikit.min.css"
 import "../components/layout.css"
 import Speaker from "../components/speaker"
 
+
 const Putty = {
   name: "Putty Putman",
   bio: `Putty started the School of Kingdom Ministry, and oversees
