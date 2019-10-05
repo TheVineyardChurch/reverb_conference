@@ -4,7 +4,7 @@ import React from "react"
 import "./video.css"
 
 
-const videoURL= 'https://player.vimeo.com/video/318806849?muted=1&autoplay=1&loop=1';
+const videoURL= 'https://player.vimeo.com/video/364423260?muted=1&autoplay=1&loop=1';
 const registerURL= 'https://thevineyardchurch.ccbchurch.com/goto/forms/915/responses/new';
 
 

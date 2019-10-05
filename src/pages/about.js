@@ -14,8 +14,8 @@ import SEO from "../components/seo"
 const registerURL= 'https://thevineyardchurch.ccbchurch.com/goto/forms/915/responses/new';
 
 const theme = {
-  backgroundColor: '#f2f4f4',
-  color: '#222222',
+  backgroundColor: '#0c0c0c',
+  color: '#fff',
 }
 
 /* exported for about page */

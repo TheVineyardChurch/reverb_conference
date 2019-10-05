@@ -1,16 +1,17 @@
 import React from "react"
 
-const videoURL= 'https://player.vimeo.com/video/318806849';
+const videoURL= 'https://player.vimeo.com/video/364423260';
 
 const confTitle = {
-  color: '#222222',
+  color: '#007dff',
   textTransform: 'uppercase',
   fontWeight: '800'
 }
 
+
 const Header = () => (
   <div>
-    <h1 className="uk-heading-hero" style={confTitle}>Sons & Daughters</h1>
+    <h1 className="uk-heading-hero" style={confTitle}>Reverb Youth Conference</h1>
     <div className="uk-grid uk-margin-large-bottom">
       <div className="uk-width-auto@l">
         <iframe className="promo-video"
